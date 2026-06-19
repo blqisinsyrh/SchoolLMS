@@ -100,8 +100,8 @@ if(role == null) { role = "User"; }
                     </form>
                     
                     <div class="text-center mt-3">
-                        <p class="small text-muted mb-0">Don't have an account? <a href="register.jsp" class="text-decoration-none fw-semibold" style="color: #4f46e5;">Register Here</a></p>
-                        <a href="index.jsp" class="d-block small text-secondary mt-3 text-decoration-none">← Back to Portal Selection</a>
+                        <p class="small text-muted mb-0">Don't have an account? <a href="${pageContext.request.contextPath}/register.jsp" ...>Register Here</a>
+<a href="${pageContext.request.contextPath}/index.jsp" ...>← Back to Portal Selection</a>
                     </div>
                 </div>
             </div>
