@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL =
-            "jdbc:mysql://localhost:3306/schoollms";
+            "jdbc:mysql://localhost:3307/schoollms";
 
     private static final String USER =
             "root";
